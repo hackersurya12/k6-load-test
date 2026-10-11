@@ -1,8 +1,20 @@
 {
   "name": "k6-load-test",
   "version": "1.0.0",
-  "description": "Authorized website load testing",
+  "description": "Real Drive X — playable browser racing prototype",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "test": "k6 run test.js"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "@vitejs/plugin-react": "^6.1.2",
+    "lucide-react": "^1.55.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1",
+    "vite": "^8.3.4"
   }
 }
